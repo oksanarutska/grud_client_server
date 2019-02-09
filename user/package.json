@@ -1,0 +1,23 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "https://oksanarutska.github.io/user_crud/index.html",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oksanarutska/user_crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oksanarutska/user_crud/issues"
+  },
+  "homepage": "https://github.com/oksanarutska/user_crud#readme",
+  "dependencies": {
+
+  }
+}

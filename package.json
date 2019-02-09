@@ -1,0 +1,17 @@
+{
+  "name": "user_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "cd ./server && npm run start",
+    "start-user": "cd ./user && npm run start",
+    "start": "concurrently \"npm run start-user\" \"npm run start-server\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
